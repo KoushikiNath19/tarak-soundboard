@@ -1,6 +1,10 @@
-<h1>Tarak's Housew</h1>
+<h1>Tarak's House</h1>
   <div class="content" layout="row" layout-align="center center">
-    <button class="round">&#9998;</button>
+    <audio #audioPlayer>
+      <source src="assets/oye_papa_ji.mp3" type="audio/mpeg"> 
+      Your browser does not support the audio element.
+    </audio>
+    <button class="round" (click)="audioPlayer.play()">&#9998;</button>
     <button class="round">&#9998;</button>
     <button class="round">&#9998;</button>
   </div>
