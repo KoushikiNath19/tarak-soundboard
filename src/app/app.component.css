@@ -1,0 +1,31 @@
+button.round {
+  background-color: #e07048;
+  color: white;
+  border: none;
+  padding: 5px;
+  font-size: 31px;
+  height: 130px;
+  width: 130px;
+  box-shadow: 0 2px 4px darkslategray;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button.round:hover {
+  background-color: #65b9e6;
+ }
+ 
+ button.round:active {
+  box-shadow: 0 0 2px darkslategray;
+  transform: translateY(2px);
+ }
+div, h1 {
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 10px;
+}
